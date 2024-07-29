@@ -1,0 +1,55 @@
+#include<iostream>
+using namespace std;
+void function()
+{
+    cout<<"sample function";
+}
+
+int main()
+{
+    int a;
+    int b;
+    int i;
+    int j=0;
+    char b='a';
+    cout<<"enter two numbers\n";
+    cin>> a>>b;
+    cout<<"value of a = "<<a<<" value of b = "<<b<<"\n";
+    if (a>b)
+    {
+        cout<<a<<" is greater than "<<b<<"\n";
+        
+    }
+    else if (b>a)
+    {
+        cout<<b<<" is greater than "<<a<<"\n";
+    }
+    else 
+    {
+        cout<<"a and b have the same value\n";
+        
+    }
+    for (i=10;i>=1;i--)
+    {
+        cout<<a<<" * "<<i<<" = "<<a*i<<"\n";
+    }
+    while(j<5)
+    {
+        cout<<j<<"\n";
+        j--;
+    }
+    switch(op)
+    {
+    case 1:
+        cout<<case1;
+        break;
+    case 2:
+        cout<<case2;
+        break;
+    case 3:
+        cout<<case3;
+        break;
+    default:
+        cout<<default statement;
+    }
+}   

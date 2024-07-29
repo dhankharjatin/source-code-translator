@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+    int a,b;
+    printf("enter two numbers\n");
+    scanf("%d %d", &a,&b);
+    int i;
+    for(i=0;i<=5;i++)
+    {
+        printf("value of i is %c \n",i) ;
+    }
+    if(a<b)
+    {
+        printf("%d is less than %f",a,b);
+    }
+    else 
+    {
+        printf("%d is less than %d",b,a);
+    }
+}

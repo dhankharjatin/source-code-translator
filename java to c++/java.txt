@@ -1,0 +1,40 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	    int a=5;
+	    int b=7;
+	    int i,j=0;
+		System.out.println(a+"Hello"+b+" World");
+		Scanner s = new Scanner(System.in);
+		System.out.println("enter a number ");
+		int d = s.nextInt();
+		if (a>b)
+        {
+            System.out.println(a+" is greater than "+b+"\n");
+            
+        }
+        else if (b>a)
+        {
+            System.out.println(b+" is greater than "+a+"\n");
+        }
+        else 
+        {
+            System.out.println("a and b have the same value\n");
+            
+        }
+        for(i=0;i<=10;i++)
+        {
+            System.out.println(a+" * "+i+" = "+a*i+"\n");
+        }
+        while(j<5)
+        {
+            System.out.println(j+"\n");
+            j++;
+        }
+    
+		
+		
+	}
+}
